@@ -6,7 +6,7 @@ public:
 
         for(int i=0;i<n;i++){
             int count = 1;
-            for(int j=0;j<sentences[i].size();j++){
+            for(int j=0;j<sentences[i].length();j++){
                 if(sentences[i][j] == ' '){
                     count++;
                 }
